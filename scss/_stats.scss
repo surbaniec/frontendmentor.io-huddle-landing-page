@@ -9,6 +9,14 @@
         width: 80%;
         height: auto;
     }
+    &__row {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
     &__box {
         display: flex;
         flex-direction: column;
@@ -25,6 +33,24 @@
         &-title {
             color: #a0a0a0;
             font-size: 14px;
+        }
+    }
+}
+@media (min-width: 768px) {
+    .stats {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 1200px) {
+    .stats {
+    height: 140vh;
+        &__row {
+            width: 60%;
+            flex-direction: row;
+        }
+        &__img {
+            width: 60%;
         }
     }
 }

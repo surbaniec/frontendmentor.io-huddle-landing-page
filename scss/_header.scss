@@ -43,3 +43,24 @@
         box-shadow: 0px 6px 16px -6px rgba(0,0,0,0.75);
     }
 }
+
+@media (min-width: 768px) {
+    .header{
+        height: 80vh;
+        padding: 0 100px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header{
+        height: 60vh;
+        padding: 30px 200px 0px;
+        &__top-img {
+            width: 180px;
+        }
+        &__top-btn {
+            width: 150px;
+            height: 40px;
+        }
+    }
+}
