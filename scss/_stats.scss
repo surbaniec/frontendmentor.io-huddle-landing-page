@@ -1,0 +1,30 @@
+.stats {
+    width: 100vw;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    &__img {
+        width: 80%;
+        height: auto;
+    }
+    &__box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        &-icon {
+            align-self: flex-start;
+            width: 30px;
+            height: auto;
+        }
+        &-number {
+            font-size: 56px;
+        }
+        &-title {
+            color: #a0a0a0;
+            font-size: 14px;
+        }
+    }
+}

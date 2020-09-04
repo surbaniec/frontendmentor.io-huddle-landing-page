@@ -1,22 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-$pinkColor: hsl(322, 100%, 66%);
-$darkCyanColor: hsl(192, 100%, 9%);
-$paleBlueColor: hsl(207, 100%, 98%);
-
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Poppins', sans-serif;
-}
+@import 'style';
+@import 'header';
+@import 'stats';
+@import 'features';
+@import 'cta-section';
+@import 'footer';

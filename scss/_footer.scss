@@ -1,0 +1,84 @@
+.footer {
+    color: #fff;
+    text-align: left;
+    &__bg {
+        height: 53px;
+        background-image: url('../images/bg-footer-top-mobile.svg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center 0%;
+    }
+}
+
+.newsletter {
+    background-color: $darkCyanColor;
+    padding: 50px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    &__title {
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    &__text {
+        margin: 20px 0;
+        font-size: 14px;
+    }
+    &__form {
+        width: 100%;
+    }
+    &__input {
+        width: 100%;
+        height: 40px;
+        background-color: #fff;
+        border: none;
+        border-radius: 5px;
+    }
+    &__btn {
+        margin-top: 10px;
+        float: right;
+        border: none;
+        height: 40px;
+        width: 50%;
+        background-color: $pinkColor;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 5px;
+        font-weight: 700;
+    }
+}
+
+.contact {
+    padding: 50px 20px;
+    background-color: $darkCyanColor;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    &__logo {
+        margin-bottom: 20px;
+        align-self: flex-start;
+    }
+    &__text {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    &__wrapper {
+        margin: 10px;
+        align-self: flex-start;
+        display: flex;
+        align-items: center;
+    }
+    &__info {
+        font-size: 14px;
+    }
+    &__icon {
+        margin-right: 15px;
+    }
+
+}
+
+.svg {
+    fill: #fff;
+}
