@@ -1,10 +1,7 @@
 .features {
     width: 100vw;
     height: 350vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    @include flexbox-column;
     &__img {
         width: 80%;
         height: auto;
@@ -17,10 +14,7 @@
     }
     &__content {
         height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
+        @include flexbox-column;
         background-color: $paleBlueColor;
         padding: 50px 25px;
         &--white {
